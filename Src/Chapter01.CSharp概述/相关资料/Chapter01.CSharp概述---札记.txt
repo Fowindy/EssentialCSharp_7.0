@@ -21,6 +21,13 @@
 	3).命令:cd ./HelloWorld			---切换到HelloWorld项目目录
 	4).命令:dotnet new console		---生成项目程序基本框架
 	5).命令:dotnet run				---运行生成的程序
+	*注意:如果项目含有解决方案,则可以到.sln文件目录通过如下命令编译解决方案中的所有项目
+	命令:dotnet build
+	运行可以使用5)的方式,也可以使用命令任何目录均可执行的方式
+	命令格式:dotnet run -p <projectfile>
+	eg:dotnet run -p J:\Documents\Source\Repos\EssentialCSharp_7.0\Src\Chapter01.CSharp概述\Chapter01.CSharp概述.csproj		---绝对路径
+	eg:dotnet run -p .\Src\Chapter01.CSharp概述\Chapter01.CSharp概述.csproj		---相对路径(也可以使用/)
+
 4.集成开发环境(IDE)
 	1).VS快捷键:
 		F9：设置/取消 短点
