@@ -1,6 +1,6 @@
 ﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-namespace Fowindy.Chapter01.Listing01_01
+namespace Fowindy.Chapter01.CSharp概述.Test.Listing01_01
 {
     [TestClass]
     public class Listing01_01
