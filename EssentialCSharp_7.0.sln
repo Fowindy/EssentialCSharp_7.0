@@ -6,6 +6,9 @@ MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Chapter01.CSharp概述", "Src\Chapter01.CSharp概述\Chapter01.CSharp概述.csproj", "{66F93914-C6E5-4C23-9038-A346EFDAEEC5}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Chapter01.CSharp概述.Test", "Src\Chapter01.CSharp概述.Test\Chapter01.CSharp概述.Test.csproj", "{695290D9-3ADE-4415-862C-D06096AE6349}"
+	ProjectSection(ProjectDependencies) = postProject
+		{66F93914-C6E5-4C23-9038-A346EFDAEEC5} = {66F93914-C6E5-4C23-9038-A346EFDAEEC5}
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
