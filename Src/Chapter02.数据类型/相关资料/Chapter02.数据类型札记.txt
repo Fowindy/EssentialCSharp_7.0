@@ -12,3 +12,6 @@ C#有大量数据类型,可以合并类型创建新类型
 		uint:	32位无符号	后缀u
 		long:	64位有符号	后缀l
 		ulong:	64位无符号	后缀ul
+3.语言对比:C++的short类型
+	C/C++的short是short int的缩写
+	C#的short是实际存在的类型
