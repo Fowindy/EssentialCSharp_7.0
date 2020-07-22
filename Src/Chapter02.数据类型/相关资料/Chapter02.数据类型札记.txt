@@ -33,3 +33,10 @@ C#有大量数据类型,可以合并类型创建新类型
 	小数点	默认		double
 	整数		默认		int
 	大整数	默认		long
+9.decimal
+	要显示完整精度的数字,必须在字面值显式声明为decimal类型,加m后缀实现
+10.字面值的解析顺序
+	无后缀:int-->uint-->long---ulong
+	后缀u:uint-->ulong
+	后缀l:long-->ulong
+	后缀ul/lu:ulong
