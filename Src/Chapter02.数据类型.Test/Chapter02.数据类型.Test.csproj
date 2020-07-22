@@ -19,6 +19,9 @@
     <PackageReference Include="MSTest.TestFramework" Version="2.0.0-beta4" />
   </ItemGroup>
   <ItemGroup>
+    <Reference Include="Chapter02.数据类型">
+      <HintPath>..\Chapter02.数据类型\bin\Debug\netcoreapp2.1\Chapter02.数据类型.dll</HintPath>
+    </Reference>
     <Reference Include="IntelliTect.TestTools.Console">
       <HintPath>C:\Users\Administrator\.nuget\packages\intellitect.testtools.console\0.6.0-ci-20200504-2\lib\netstandard2.0\IntelliTect.TestTools.Console.dll</HintPath>
     </Reference>
