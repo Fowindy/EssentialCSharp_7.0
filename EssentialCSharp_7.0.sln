@@ -5,7 +5,10 @@ VisualStudioVersion = 15.0.28307.438
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Chapter02.数据类型", "Src\Chapter02.数据类型\Chapter02.数据类型.csproj", "{F7D8C5B8-14E2-4419-B8C5-7A093D5A46B4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chapter02.数据类型.Test", "Src\Chapter02.数据类型.Test\Chapter02.数据类型.Test.csproj", "{116B0842-A6F2-44E0-BCF2-57E86E57A235}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Chapter02.数据类型.Test", "Src\Chapter02.数据类型.Test\Chapter02.数据类型.Test.csproj", "{116B0842-A6F2-44E0-BCF2-57E86E57A235}"
+	ProjectSection(ProjectDependencies) = postProject
+		{F7D8C5B8-14E2-4419-B8C5-7A093D5A46B4} = {F7D8C5B8-14E2-4419-B8C5-7A093D5A46B4}
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
