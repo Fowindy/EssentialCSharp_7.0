@@ -55,3 +55,6 @@ C#有大量数据类型,可以合并类型创建新类型
 14.高级主题:round-trip格式化
 	Console.WriteLine(string.Format("{0:R}", 1.618033989749895));
 	输出 1.618033989749895 不会丢失精度
+15.string.Compare()可以比较两个字符串是否相等(false:忽略大小写)
+            int comparison = string.Compare("/HElp", "/Help", false);
+            Console.WriteLine(comparison==1?"相同":"不同");
