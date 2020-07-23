@@ -58,3 +58,9 @@ C#有大量数据类型,可以合并类型创建新类型
 15.string.Compare()可以比较两个字符串是否相等(false:忽略大小写)
             int comparison = string.Compare("/HElp", "/Help", false);
             Console.WriteLine(comparison==1?"相同":"不同");
+16.布尔类型(bool)
+	虽然理论上一个二进制足以容纳一个布尔类型的值,但bool实际大小是一个字节(8位)
+17.字符类型(char)
+	字符类型:16位	两个字节		取值范围:Unicode字符集
+	char的大小和16位无符号整数相同(uint),取值范围:0~65535
+	char是C#的特有类型
