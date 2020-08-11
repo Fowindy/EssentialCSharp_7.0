@@ -41,6 +41,17 @@ namespace Fowindy.Chapter02.数据类型.Listing02_15
             /************************************************************************/
             /* wangyue                                                                     */
             /************************************************************************/
+
+            //int string.Compare(string str0,string str1)_区分大小写的字符串比较
+            string option;
+            Console.Write("Please enter help:");
+            option = Console.ReadLine();
+            //区分大小写的字符串比较
+            int result = string.Compare(option, "help");
+            Console.WriteLine(result);
+            //相等---显示0
+            //option < help---显示-1
+            //option > help---显示1
         }
     }
 }
