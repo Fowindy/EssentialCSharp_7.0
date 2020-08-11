@@ -23,6 +23,17 @@ namespace Fowindy.Chapter02.数据类型.Listing02_15
     {
         public static void Main()
         {
+            //string.Format(string format,...)
+            string text, firstName, lastName;
+            Console.Write("Please enter your first name:");
+            firstName = Console.ReadLine();
+            Console.Write("Please enter your last name:");
+            lastName = Console.ReadLine();
+            text = string.Format("Your full name is {0} {1}.", firstName, lastName);
+            Console.WriteLine(text);
+            /************************************************************************/
+            /* Your full name is wang yue.                                                                     */
+            /************************************************************************/
         }
     }
 }
