@@ -93,3 +93,9 @@ C#有大量数据类型,可以合并类型创建新类型
 	C++直接连接,C#需要使用+操作符连接
 
 	相同字符串在程序集中多次出现,只分配一个空间,只占用一个大小
+23.高级主题:理解字符串插值的内部工作原理
+	字符串插值是调用string.Format()方法的语法糖
+	Console.WriteLine($"Your full name is {firstName} {lastName}.")
+	内部等价于如下C#代码:
+	object[] args = new object[] {firstName,lastName};
+	Console.WriteLine(String.Format("Your full name is {0} {1}.",args));
