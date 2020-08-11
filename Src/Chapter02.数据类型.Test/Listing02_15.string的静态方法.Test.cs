@@ -24,7 +24,8 @@ namespace Fowindy.Chapter02.数据类型.Test.Listing02_15
             const string expected =
                 @"Please enter your first name:<<王
 >>Please enter your last name:<<岳
->>Your full name is 王 岳.";
+>>Your full name is 王 岳.
+>>王岳";
 
             IntelliTect.TestTools.Console.ConsoleAssert.Expect(
                 expected, Chapter02.数据类型.Listing02_15.Listing02_15.Main);
