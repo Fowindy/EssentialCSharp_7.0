@@ -29,7 +29,7 @@ namespace Fowindy.Chapter02.数据类型.Listing02_14_01
             string lastName = Console.ReadLine();
             //$解析引用变量_2逐字解析换行空格等等(引用外的换行解析成换行)
             Console.WriteLine($@"Your full name is:
-                {firstName} {lastName}");
+{firstName} {lastName}");
             //$解析引用变量_2逐字解析换行空格等等(引用内的换行解析成不换行)
             Console.WriteLine($@"Your full name is:{
                 firstName} {lastName}");
