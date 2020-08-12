@@ -23,6 +23,12 @@ namespace Fowindy.Chapter02.数据类型.Listing02_16
     {
         public static void Main()
         {
+            //bool StartsWith(string value)_判断是否以目标字符开始
+            string lastName;
+            Console.Write("Please enter your last name:");
+            lastName = Console.ReadLine();
+            bool isWang = lastName.StartsWith("wang");
+            Console.WriteLine(isWang);
         }
     }
 }
