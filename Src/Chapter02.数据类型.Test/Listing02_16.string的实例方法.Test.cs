@@ -22,7 +22,8 @@ namespace Fowindy.Chapter02.数据类型.Test.Listing02_16
         public void Main_Listing02_16()
         {
             const string expected =
-                @"Please enter your full name:<<wang yue
+                @"Please enter your user name:<<  wang yue  
+>>wang yue
 >>True
 >>True
 >>wang yue

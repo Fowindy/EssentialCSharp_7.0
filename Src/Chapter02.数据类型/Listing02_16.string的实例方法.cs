@@ -23,10 +23,13 @@ namespace Fowindy.Chapter02.数据类型.Listing02_16
     {
         public static void Main()
         {
+            string userName;
+            Console.Write("Please enter your user name:");
+            userName = Console.ReadLine();
+            //string.Trim()_删除首尾空白
+            string fullName = userName.Trim();
+            Console.WriteLine(fullName);
             //bool StartsWith(string value)_判断是否以目标字符开始
-            string fullName;
-            Console.Write("Please enter your full name:");
-            fullName = Console.ReadLine();
             bool isWang = fullName.StartsWith("wang");
             Console.WriteLine(isWang);
             //bool StartsWith(string value)_判断是否以目标字符结束
