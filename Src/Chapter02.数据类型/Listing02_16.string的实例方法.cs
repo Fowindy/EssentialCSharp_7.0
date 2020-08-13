@@ -30,6 +30,9 @@ namespace Fowindy.Chapter02.数据类型.Listing02_16
             //string.TrimStart()_删除首空白
             fullName = userName.TrimStart();
             Console.WriteLine(fullName);
+            //string.TrimEnd()_删除尾空白
+            fullName = userName.TrimEnd();
+            Console.WriteLine(fullName);
             //string.Trim()_删除首尾空白
             fullName = userName.Trim();
             Console.WriteLine(fullName);
