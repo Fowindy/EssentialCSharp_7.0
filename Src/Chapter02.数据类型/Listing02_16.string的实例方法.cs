@@ -26,8 +26,12 @@ namespace Fowindy.Chapter02.数据类型.Listing02_16
             string userName;
             Console.Write("Please enter your user name:");
             userName = Console.ReadLine();
+            string fullName;
+            //string.TrimStart()_删除首空白
+            fullName = userName.TrimStart();
+            Console.WriteLine(fullName);
             //string.Trim()_删除首尾空白
-            string fullName = userName.Trim();
+            fullName = userName.Trim();
             Console.WriteLine(fullName);
             //bool StartsWith(string value)_判断是否以目标字符开始
             bool isWang = fullName.StartsWith("wang");
