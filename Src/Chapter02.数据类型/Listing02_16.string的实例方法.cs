@@ -34,6 +34,8 @@ namespace Fowindy.Chapter02.数据类型.Listing02_16
             Console.WriteLine(isYue);
             //string ToLower()_字符串全部转换成小写
             Console.WriteLine(fullName.ToLower());
+            //string ToUp()_字符串全部转换成大写
+            Console.WriteLine(fullName.ToUpper());
         }
     }
 }
