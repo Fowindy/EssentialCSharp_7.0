@@ -24,7 +24,8 @@ namespace Fowindy.Chapter02.数据类型.Test.Listing02_16
             const string expected =
                 @"Please enter your full name:<<wang yue
 >>True
->>True";
+>>True
+>>wang yue";
 
             IntelliTect.TestTools.Console.ConsoleAssert.Expect(
                 expected, Chapter02.数据类型.Listing02_16.Listing02_16.Main);

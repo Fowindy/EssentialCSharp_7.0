@@ -32,6 +32,8 @@ namespace Fowindy.Chapter02.数据类型.Listing02_16
             //bool StartsWith(string value)_判断是否以目标字符结束
             bool isYue = fullName.EndsWith("yue");
             Console.WriteLine(isYue);
+            //string ToLower()_字符串全部转换成小写
+            Console.WriteLine(fullName.ToLower());
         }
     }
 }
