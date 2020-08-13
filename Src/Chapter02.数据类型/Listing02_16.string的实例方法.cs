@@ -24,11 +24,14 @@ namespace Fowindy.Chapter02.数据类型.Listing02_16
         public static void Main()
         {
             //bool StartsWith(string value)_判断是否以目标字符开始
-            string lastName;
-            Console.Write("Please enter your last name:");
-            lastName = Console.ReadLine();
-            bool isWang = lastName.StartsWith("wang");
+            string fullName;
+            Console.Write("Please enter your full name:");
+            fullName = Console.ReadLine();
+            bool isWang = fullName.StartsWith("wang");
             Console.WriteLine(isWang);
+            //bool StartsWith(string value)_判断是否以目标字符结束
+            bool isYue = fullName.EndsWith("yue");
+            Console.WriteLine(isYue);
         }
     }
 }
