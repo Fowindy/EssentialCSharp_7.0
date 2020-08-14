@@ -27,14 +27,18 @@ namespace Fowindy.Chapter02.数据类型.Listing02_16
             Console.Write("Please enter your user name:");
             userName = Console.ReadLine();
             string fullName;
+            //string Replace(string oldValue,string newValue)_字符替换
+            Console.WriteLine(userName);
+            fullName = userName.Replace("?", " ");
+            Console.WriteLine(fullName);
             //string.TrimStart()_删除首空白
-            fullName = userName.TrimStart();
+            fullName = fullName.TrimStart();
             Console.WriteLine(fullName);
             //string.TrimEnd()_删除尾空白
-            fullName = userName.TrimEnd();
+            fullName = fullName.TrimEnd();
             Console.WriteLine(fullName);
             //string.Trim()_删除首尾空白
-            fullName = userName.Trim();
+            fullName = fullName.Trim();
             Console.WriteLine(fullName);
             //bool StartsWith(string value)_判断是否以目标字符开始
             bool isWang = fullName.StartsWith("wang");
