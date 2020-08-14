@@ -104,3 +104,8 @@ C#有大量数据类型,可以合并类型创建新类型
 	实例方法:以变量名(或者对实例的其他引用)作为前缀
 25.using static指令的引用
 	调用System.Console.WriteLine();可以引用Using static指令后直接使用WriteLine();
+	1.using static指令需添加到文件顶部(namespace声明之前),优点:每次使用System.Console类成员,可省略System.Console前缀
+	2.using static指令只支持静态方法和属性,不支持实例成员;
+	3.using指令用于省略命名空间前缀(如System,作用于整个文件)
+	4.using static指令仅作用于静态成员
+	5.使用using不管实例化还是静态调用等,都可以省略对命名空间的引用;
