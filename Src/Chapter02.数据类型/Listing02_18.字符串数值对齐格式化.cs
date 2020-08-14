@@ -23,6 +23,12 @@ namespace Fowindy.Chapter02.数据类型.Listing02_18
     {
         public static void Main()
         {
+            //$"{price,20:c2}"_金融数值格式化
+            double price;
+            Console.Write("Please enter a decimal value:");
+            price = double.Parse(Console.ReadLine());
+            Console.WriteLine($"{price,20:c2}");
+            //￥1,234,567,890.46
         }
     }
 }
