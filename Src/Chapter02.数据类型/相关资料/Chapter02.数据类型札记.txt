@@ -102,3 +102,5 @@ C#有大量数据类型,可以合并类型创建新类型
 24.静态方法和实例方法的调用
 	静态方法:以类型名作为前缀,在方法名(如Compare)之前附加方法所在类型的名称(如string)
 	实例方法:以变量名(或者对实例的其他引用)作为前缀
+25.using static指令的引用
+	调用System.Console.WriteLine();可以引用Using static指令后直接使用WriteLine();
