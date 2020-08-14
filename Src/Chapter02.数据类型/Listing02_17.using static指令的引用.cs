@@ -11,7 +11,8 @@
  *          修改日期：2020年8月14日 星期五 23:25:57
  *          修改理由：创建文档
  * ==============================================================================*/
-using System;
+//使用using指令可允许在代码中省略命名空间
+using static System.Console;
 using System.Collections.Generic;
 using System.Text;
 using System.Xml;
@@ -23,6 +24,14 @@ namespace Fowindy.Chapter02.数据类型.Listing02_17
     {
         public static void Main()
         {
+            string firstName;
+            string lastName;
+            WriteLine("Hey you!");
+            Write("Please enter your first name:");
+            firstName = ReadLine();
+            Write("Please enter your last name:");
+            lastName = ReadLine();
+            WriteLine($"Your full name is {firstName} {lastName}.");
         }
     }
 }
