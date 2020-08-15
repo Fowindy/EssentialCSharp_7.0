@@ -29,6 +29,8 @@ namespace Fowindy.Chapter02.数据类型.Listing02_18
             price = double.Parse(Console.ReadLine());
             Console.WriteLine($"{price,20:c2}");
             //￥1,234,567,890.46
+            //string.Format("{0,20:C2}",price)_金融数值格式化
+            Console.WriteLine(string.Format("{0,20:C2}", price));
         }
     }
 }

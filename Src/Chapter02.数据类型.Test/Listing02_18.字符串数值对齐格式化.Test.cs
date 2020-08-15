@@ -23,6 +23,7 @@ namespace Fowindy.Chapter02.数据类型.Test.Listing02_18
         {
             const string expected =
                 @"Please enter a decimal value:<<123456789012.345678
+>>￥123,456,789,012.35
 >>￥123,456,789,012.35";
 
             IntelliTect.TestTools.Console.ConsoleAssert.Expect(
