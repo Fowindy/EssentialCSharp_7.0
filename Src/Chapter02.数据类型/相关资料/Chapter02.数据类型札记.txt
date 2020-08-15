@@ -112,3 +112,14 @@ C#有大量数据类型,可以合并类型创建新类型
 26.字符串格式化
 	string.Format("{0,20:C2}",price);  <==> $"{price,20:C2}"
 	小数点后四舍五入保留两位,20个字符宽度右对齐(左对齐就为20添加负号)
+27.换行符
+	Windows系统的换行符:\r和\n两个字符的组合;
+	UNIX系统的换行符:\n
+	解决平台兼容性:
+	方法1:System.Console.WriteLine()自动输出空行
+	方法2:System.Console.WriteLine("Hello World"); <==> System.Console.Write("Hello World" + System.Environment.NewLine);
+	Windows系统的等价关系:
+	System.Console.WriteLine(); <==> System.Console.Write(System.Envoronment.NewLine); <==> System.Console.Write("\r\n");
+
+	设计规范总结:
+	依赖System.Console.WriteLine()和System.Envoronment.NewLine来保证跨平台的兼容性
