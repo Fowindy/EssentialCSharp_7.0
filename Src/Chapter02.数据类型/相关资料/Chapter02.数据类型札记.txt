@@ -123,3 +123,6 @@ C#有大量数据类型,可以合并类型创建新类型
 
 	设计规范总结:
 	依赖System.Console.WriteLine()和System.Envoronment.NewLine来保证跨平台的兼容性
+28.C#属性
+	C#允许像访问成员变量(C#中称为字段)那样访问属性
+	属性定义:赋值方法(setter)和取值方法(getter)
