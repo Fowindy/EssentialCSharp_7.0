@@ -133,3 +133,5 @@ C#有大量数据类型,可以合并类型创建新类型
 	可为字符串全新赋值,但是不能修改现有字符串;
 31.System.Text.StringBuilder可变
 	大量字符串修改建议使用System.Text.StringBuilder
+32.null
+	null可赋值给:引用类型,指针类型,可控值类型(表明为空,不指向任何位置)
