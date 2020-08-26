@@ -174,9 +174,9 @@ C#有大量数据类型,可以合并类型创建新类型
 
 2.4.3.不使用转型操作符的类型转换_Parse()
 	每个数值数据类型都包含一个Parse()方法,允许将字符串转换成对应的数值类型
-
-	System.Convert只支持只支持少量类型,且不可扩展,允许从bool, char, sbyte, short,int,long,ushort,uint
+	1.System.Convert只支持只支持少量类型,且不可扩展,允许从bool, char, sbyte, short,int,long,ushort,uint
 	,float,double,decimal,DateTime和string转换到这些类型种的任何一种
-
-	所有类型都支持ToString()方法,可用转换为字符串表示
+	2.所有类型都支持ToString()方法,可用转换为字符串表示
+	3.大多数类型的ToString()方法只是返回数据类型的名称,而不是数据的字符串表示,
+	只有在类型显式实现了ToString()的前提下才会返回字符串表示
 
