@@ -183,3 +183,8 @@ C#有大量数据类型,可以合并类型创建新类型
 	高级主题:TryParse()
 	.NET 2.0开始,所有基元数值类型都包含静态TryParse()方法,与Parse()方法相似
 	只是转换失败不是引发异常,二十返回false
+
+	4.out参数的讲解
+	bool b = double.TryParse(input,out number)
+	此方法从输入的字符串转换到值成功则返回true给b,再通过out将转换成功的值返回给number
+	C# 7.0起不用先声明只准备作为out参数使用的变量
