@@ -190,3 +190,6 @@ C#有大量数据类型,可以合并类型创建新类型
 	C# 7.0起不用先声明只准备作为out参数使用的变量
 	if (double.TryParse(input,out double number)){}
 	注意:先写out再写数据类型,定义的number变量只在if语句内部的作用域,在外部不可用
+
+	5.Parse()和TryParse()的关键区别
+	如转换失败,TryParse()不会引发异常,Parse()会引发异常;
