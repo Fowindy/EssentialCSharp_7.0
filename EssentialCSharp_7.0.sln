@@ -3,6 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.438
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Chapter02.数据类型", "Src\Chapter02.数据类型\Chapter02.数据类型.csproj", "{F7D8C5B8-14E2-4419-B8C5-7A093D5A46B4}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Chapter02.数据类型.Test", "Src\Chapter02.数据类型.Test\Chapter02.数据类型.Test.csproj", "{116B0842-A6F2-44E0-BCF2-57E86E57A235}"
+	ProjectSection(ProjectDependencies) = postProject
+		{F7D8C5B8-14E2-4419-B8C5-7A093D5A46B4} = {F7D8C5B8-14E2-4419-B8C5-7A093D5A46B4}
+	EndProjectSection
+EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Chapter01.CSharp概述", "Src\Chapter01.CSharp概述\Chapter01.CSharp概述.csproj", "{66F93914-C6E5-4C23-9038-A346EFDAEEC5}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Chapter01.CSharp概述.Test", "Src\Chapter01.CSharp概述.Test\Chapter01.CSharp概述.Test.csproj", "{695290D9-3ADE-4415-862C-D06096AE6349}"
@@ -11,6 +18,20 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Chapter01.CSharp概述.Test
 	EndProjectSection
 EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F7D8C5B8-14E2-4419-B8C5-7A093D5A46B4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F7D8C5B8-14E2-4419-B8C5-7A093D5A46B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F7D8C5B8-14E2-4419-B8C5-7A093D5A46B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F7D8C5B8-14E2-4419-B8C5-7A093D5A46B4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{116B0842-A6F2-44E0-BCF2-57E86E57A235}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{116B0842-A6F2-44E0-BCF2-57E86E57A235}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{116B0842-A6F2-44E0-BCF2-57E86E57A235}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{116B0842-A6F2-44E0-BCF2-57E86E57A235}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
