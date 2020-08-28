@@ -44,3 +44,7 @@
 3.3 元组(tuple)
 	允许在一个语句中完成所有变量的赋值;
 	(string country,string capital,double gdpPerCapital)=("Malawi","Lilongwe",226.50);
+
+	设计规范:元组
+	1.要为元组语法的变量声明使用camelCase大小写规范;
+	2.考虑为所有元组项名称使用PascalCase大小写风格。
