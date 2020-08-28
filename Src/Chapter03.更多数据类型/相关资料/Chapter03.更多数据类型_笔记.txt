@@ -67,3 +67,12 @@
 	1.声明多维数组要使用逗号,逗号数量+1=维数
 	string[] Languages; // one-dimensional
 	int[,] cells;// two-dimensionat
+	2.赋值
+	  string[] languages = { "C#", "COBOL", "Java", "C++", "Visual Basic", "Pascal", "Fortran", "Lisp", "J#" };
+      languages = new string[9];
+      languages = new string[] { "C#", "COBOL", "Java", "C++", "Visual Basic", "Pascal", "Fortran", "Lisp", "J#" };
+      //多维数组赋值和初始化(二维)
+      int[,] cells = new int[2, 3] { {0,1,2},{1,2,3}}; 
+	3.default关键字
+	使用default表达式显式获取任何数据的默认值
+	int count = default(int);
