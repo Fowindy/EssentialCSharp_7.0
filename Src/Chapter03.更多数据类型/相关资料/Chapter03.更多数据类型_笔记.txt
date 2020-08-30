@@ -161,3 +161,6 @@
 	多维数组的元素个数计算方法:
 	int[,,] numbers = new int[2,3,3];
 	numbers.Length = 2*3*3 = 18
+
+	交错数组的长度:
+	Length返回外部数组的元素数;
