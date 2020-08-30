@@ -113,3 +113,7 @@
 	char类型:\0
 
 	不需要在使用数组前初始化它的所有元素
+
+	C#2.0后的特性:使用default()操作符获取数据类型的默认值
+	default(int)返回0
+	default(bool)返回false
