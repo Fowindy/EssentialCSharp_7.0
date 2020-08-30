@@ -28,8 +28,8 @@ namespace Fowindy.Chapter03.更多数据类型.Listing03_03_10
             double gdpPerCapital = 226.50;
             var countryInfo = (country, capital, gdpPerCapital);
             //C# 7.1版本
-//            Console.WriteLine($@"The poorest country in the world in 2017 was {
-//countryInfo.country},{countryInfo.capital}:{countryInfo.gdpPerCapital}");
+            //            Console.WriteLine($@"The poorest country in the world in 2017 was {
+            //countryInfo.country},{countryInfo.capital}:{countryInfo.gdpPerCapital}");
         }
     }
 }

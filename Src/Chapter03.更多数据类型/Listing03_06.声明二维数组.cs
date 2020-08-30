@@ -24,6 +24,7 @@ namespace Fowindy.Chapter03.更多数据类型.Listing03_06
         public static void Main()
         {
             int[,] cells;
+            cells = new int[2, 3];
         }
     }
 }
