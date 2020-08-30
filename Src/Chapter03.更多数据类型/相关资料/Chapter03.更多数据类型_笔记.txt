@@ -105,3 +105,11 @@
 	指定的数组大小必须和大括号中的元素数量匹配;
 	string[] languages = new string[9]{ "C#","COBOL","Java","C++","Visual Basic",
     "Pascal","Fortran","Lisp","J#"};
+
+	分配数组不指定初始值的默认值:
+	引用类型:null
+	数值类型:0
+	bool类型:false
+	char类型:\0
+
+	不需要在使用数组前初始化它的所有元素
