@@ -188,3 +188,30 @@ $3.数组实例方法
 
 	字符数组转字符串:
 	new string(temp)---temp为字符数组
+
+3.4.5 常见数组错误
+	错误1:用于声明数组的方括号放在数据类型之后,而不是在变量标识符之后
+	错误											修正
+	int numbers[];								int[] numbers;
+	错误2:声明后再对数组赋值需使用new
+	int[] numbers;								int[] numbers;
+	numbers = {42,84,168};						numbers = new int[]{42,84,168};
+	错误3:不能在变量声明中指定数组大小
+	int[3] numbers = {42,84,168};				int[] numbers = {42,84,168};
+	错误4:如不指定数组字面值,则必须指定数组大小
+	int[] numbers = new int[];					int[] numbers = new int[3];
+	错误5:数组大小必须与数组字面值元素个数一致
+	int[] numbers = new int[3]{};				int[] numbers = new int[3]{42,84,168};
+	错误6:数组运行错误_数组索引比长度小1
+	int[] numbers = new int[3];					int[] numbers = new int[3];
+	Console.WriteLine(numbers[3]);				Console.WriteLine(numbers[2]);
+	错误7:需要从Length减去1来访问数组最后元素
+	int[] numbers = new int[3];					int[] numbers = new int[3];
+	numbers[numbers.Length] = 42;				numbers[numbers.Length-1] = 42;
+	错误8:未实例化数组,不可访问
+	int[] numbers;								int[] numbers = {42,84};
+	Console.WriteLine(numbers[0]);				Console.WriteLine(numbers[0]);
+	错误9:多维数组的结构必须一致
+	int[,] numbers = {{42},{84,42}};			int[,] numbers = {{42,168},{84,42}};
+	错误10:交错数组要求对数组中的数组进行实例化
+	int[][] numbers = {{42,168},{84,42}};		int[][] numbers = {new int[]{42,168},new int[]{42,84}};
