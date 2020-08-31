@@ -24,8 +24,7 @@ namespace Fowindy.Chapter01.CSharp概述.Test.Listing01_14
             const string expected =
 @"Hey you!
 Please enter your first name:<<yue
->>Please enter your last name:<<wang
->>";
+>>Please enter your last name:<<wang";
             IntelliTect.TestTools.Console.ConsoleAssert.Expect(
                 expected, Chapter01.CSharp概述.Listing01_14.Listing01_14.Main);
         }
