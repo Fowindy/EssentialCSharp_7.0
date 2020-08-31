@@ -176,3 +176,8 @@
 	语言对比: Visual Basic-允许改变数组大小
 	1.Visual Basic提供Redim语句来更改数组元素数量;
 	2.NET 2.0提供了System.Array. Resize()方法来重新创建数组,并将所有元素拷贝到新数组;
+
+$3.数组实例方法
+	1.数组也有不从数据类型而是从变量访问的实例成员;
+	2.Length,GetLength()、Rank,Clone();
+	3.获取特定维的长度不是用Length属性,而是用数组的GetLength()实例方法;
