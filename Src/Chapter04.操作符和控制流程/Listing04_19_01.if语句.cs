@@ -17,9 +17,9 @@ using System.Text;
 using System.Xml;
 using System.IO;
 
-namespace Fowindy.Chapter04.操作符和控制流程.Listing04_19_1
+namespace Fowindy.Chapter04.操作符和控制流程.Listing04_19_01
 {
-    public class Listing04_19_1
+    public class Listing04_19_01
     {
         public static void Main()
         {
