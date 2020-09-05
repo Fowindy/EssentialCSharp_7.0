@@ -89,3 +89,6 @@
 	高级主题：线程安全的递增和递减
 	可用lock语句防止出现竞争条件;
 	System.Threading. Interlocked类提供的线程安全方法Increment()和Decrement()
+
+	设计规范:常量const
+	1.不要用常量表示将来可能改变的任何值;
